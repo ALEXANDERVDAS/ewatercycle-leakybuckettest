@@ -2,7 +2,7 @@
 # One should include a link to the repository as the repository variable: in the format user/name.
 # The repository should be public so that our framework can clone it and test the plugin.
 repository: ALEXANDERVDAS/ewatercycle-leakybuckettest
-model_name: 'LeakyBucket'
+model_name: 'LeakyBucketTest'
 model_type: 'Lumped'
 output_variable_name: 'discharge'
 parameter_set_name: null

@@ -44,7 +44,7 @@ class LeakyBucketMethods(eWaterCycleModel):
         return self._config.items()
 
 
-class LeakyBucket(ContainerizedModel, LeakyBucketMethods):
+class LeakyBucketTest(ContainerizedModel, LeakyBucketMethods):
     """The LeakyBucket eWaterCycle model, with the Container Registry docker image."""
     bmi_image: ContainerImage = ContainerImage(
         "ghcr.io/ewatercycle/leakybucket-grpc4bmi:v0.0.1"
